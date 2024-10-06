@@ -1,0 +1,13 @@
+---
+title: "data_cleaning"
+format: html
+editor: visual
+---
+
+# Import Data 
+
+```{r}
+library(tidyverse)
+df <- read.csv("data/nj_data.csv")
+View(df)
+```
